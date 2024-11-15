@@ -14,7 +14,7 @@ const Tally = () => {
 
       <div className="flex items-center">
         <Link
-          to={`/en`}
+          to={`/`}
           className="active-button flex items-center gap-1 m-5 mt-0"
         >
           <svg
