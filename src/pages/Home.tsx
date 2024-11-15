@@ -2,7 +2,6 @@ import Section from "../components/home/Section";
 import "../assets/css/global.css";
 import { useEffect, useState } from "react";
 import Video from "../components/home/Video";
-import LanguageSelector from "../components/LanguageSelector";
 
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
@@ -24,9 +23,6 @@ const Home = () => {
         }`}
       >
         <img src="/img/sampling-logo.png" className="w-[150px]" alt="logo" />
-        <div className="md:absolute md:right-10 flex items-center">
-          <LanguageSelector />
-        </div>
       </div>
       <div className="flex flex-col lg:flex-row">
         <Video />
